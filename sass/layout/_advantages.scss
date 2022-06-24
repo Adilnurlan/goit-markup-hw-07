@@ -10,10 +10,10 @@
 
 .advantages-list__item {
     flex-basis: calc((100%-120px)/4);
-}
 
-.advantages-list__item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .advantages-icon__wrapper {
